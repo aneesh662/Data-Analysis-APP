@@ -11,6 +11,7 @@ Data Display: Displays the uploaded dataset in a user-friendly table format.
 Summary Statistics: Provides basic descriptive statistics of the dataset.
 
 Visualizations:
+
 Trends Over Time: Line plots for revenue, expense, and profit.
 Daily Comparison: Bar charts comparing revenue, expense, and profit for each day.
 Distribution: Pie chart showing the distribution of total revenue, expense, and profit.
@@ -45,6 +46,8 @@ Example Value: 500.00
 Profit
 
 Description: The profit for the given date, calculated as Revenue - Expense. This should be numeric and represent monetary values.
+
+
 Example Value: 1000.00
 Example Dataset
 Here’s a sample dataset to illustrate the required format:
@@ -55,6 +58,8 @@ Date	Description	Revenue	Expense	Profit
 2024-01-03	Sale	1500.00	200.00	1300.00
 2024-01-04	Expense	0.00	50.00	-50.00
 2024-01-05	Sale	1800.00	250.00	1550.00
+
+
 Important Notes
 Date Column: Ensure that the date column is in a proper date format that can be parsed by pandas. Incorrect or unrecognized date formats may lead to errors in analysis.
 Numeric Columns: Revenue, Expense, and Profit should be numeric values. Non-numeric values in these columns may cause errors in calculations and visualizations.

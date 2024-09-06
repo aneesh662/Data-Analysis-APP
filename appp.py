@@ -3,9 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import io
-
+import openpyxl
 # File uploader widget
-st.title("Data Analysis and Visualization")
+st.title("Finance Data Analysis and Visualization")
 st.write("## Upload Your Dataset")
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
 

@@ -1,4 +1,4 @@
-Data Analysis and Visualization Streamlit App
+Finance Data Analysis and Visualization Streamlit App
 
 Overview
 
